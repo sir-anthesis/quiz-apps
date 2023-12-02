@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+main {
+    height: 100vh;
+    background-color: #161A30;
+}
+
+main .card {
+    background-color: #F0ECE5;
+}
+
+.card .quiz-display {
+    display: none;
+}
+
+.answer {
+    margin: 7px;
+    border-radius: 15px;
+    border: 2px solid #31304D;
+    text-align: start;
+}
+
+.answer:hover {
+    background-color: #31304D;
+    color: aliceblue;
+    transition-delay: 50ms;
+}
+
+.correct {
+    background-color: green;
+    color: aliceblue;
+}
+
+.incorrect {
+    background-color: red;
+    color: aliceblue;
+}
